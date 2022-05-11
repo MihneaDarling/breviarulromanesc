@@ -93,7 +93,7 @@ define('SMTP_PASS', '');
 define('SMTP_AUTH', '');
 define('SMTP_SECURE', ''); // STARTTLS, SMTPS (port 465) or empty
 define('SMTP_PORT', '');
-define('SMTP_DEBUG', 'NO'); // YES or NO
+define('SMTP_DEBUG', 'YES'); // YES or NO
 
 
 
