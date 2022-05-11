@@ -80,18 +80,6 @@ function enableButon(id, val) {
     document.getElementById(id).disabled = false;
 }
 
-function showFailMessage(message) {
-    var display = '<strong>Unexpected errors. </strong>(form has been misconfigured)<br>';
-    display += message.substring(5);
-    document.getElementById('fcf-status').innerHTML = display;
-}
-
-function showErrorMessage(message) {
-    var display = '<strong>Validation problem:</strong><br>';
-    display += message.substring(6);
-    document.getElementById('fcf-status').innerHTML = display;
-}
-
 function showDebugMessage(message) {
     var display = '<strong>Debug details.</strong><br>(Please remember to switch off DEBUG mode when done!)<br>';
     display += message.substring(6);
